@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

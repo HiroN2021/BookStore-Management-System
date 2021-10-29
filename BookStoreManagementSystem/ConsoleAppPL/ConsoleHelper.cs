@@ -78,10 +78,6 @@ namespace ConsoleAppPL
             }
             return id;
         }
-        // public static uint GetBookID(string msg = "Input Book's ID: ")
-        // {
-        //     return GetLibraryCardID(msg);
-        // }
         public static char GetChoice(string msg, params char[] listOfChoices)
         {
             char choice;
@@ -191,34 +187,5 @@ namespace ConsoleAppPL
         {
             return oldText.PadLeft((lineLength - oldText.Length) / 2 + oldText.Length).PadRight(lineLength);
         }
-        // static void PrintListOfBooks100(List<Book> listOfBooks, int startIndex, int maxNumberOfBooksPerPage)
-        // {
-        //     string lf = "| {0,5} | {1,-90} | {2,-13} | {3,12} |";
-        //     var header = new StringBuilder(); header.AppendFormat(lf, "Index", "Book Title", "ISBN13", "Price (VND)");
-        //     string lineSeparator = "+" + new string('-', header.Length - 2) + "+";
-        //     Console.WriteLine(lineSeparator);
-        //     Console.WriteLine(header);
-        //     lf = "| {0,5} | {1,-90} | {2,13} | {3,12:0,0} |";
-        //     for (int i = startIndex; i < Math.Min(listOfBooks.Count, startIndex + maxNumberOfBooksPerPage); i++)
-        //     {
-        //         var book = listOfBooks[i];
-        //         Console.WriteLine(lineSeparator);
-        //         Console.WriteLine(lf, i + 1, TruncateString(book.Title, 0, 90), book.ISBN13, book.Price);
-        //         for (int j = 1; book.Title.Length > 90 * j; j++)
-        //         {
-        //             Console.WriteLine(lf, "", TruncateString(book.Title, 90 * j, 90), "", "");
-        //         }
-        //     }
-        //     Console.WriteLine(lineSeparator);
-        // }
-
-        // static string TruncateString(string oldString, int startIndex, int length)
-        // {
-        //     if (oldString == null || startIndex >= oldString.Length)
-        //         return null;
-        //     if (startIndex + length > oldString.Length)
-        //         return oldString.Substring(startIndex);
-        //     return oldString.Substring(startIndex, length);
-        // }
     }
 }

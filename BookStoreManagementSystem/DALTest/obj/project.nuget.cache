@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W1Nthq7h4mKc0dp0dK8caStmJ+EK8FiqLQ/FJv6ISsJgiL9lZvcjruccaBl5dGa6XN7jYESH07X6dzaQjyHoOA==",
+  "dgSpecHash": "cas010UnnQOtZsoUec3rfppvXCssmT0fYkcIYdbR1azR2f7fvBBx3p8JSxeRdP9F1CdDaF79Qn0pPamaTiwbZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DALTest\\DALTest.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DALTest\\DALTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

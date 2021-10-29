@@ -6730,11 +6730,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DALTest\\DALTest.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DALTest\\DALTest.csproj",
       "projectName": "DALTest",
-      "projectPath": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DALTest\\DALTest.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DALTest\\DALTest.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DALTest\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DALTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6745,17 +6745,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\.NET\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\DAL\\DAL.csproj"
+            "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\VTCA-Document\\SEM1\\07.Project\\LibraryManagement\\pf12-g04-library-management\\LibraryManagementSystem\\Persistence\\Persistence.csproj"
+            "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
             }
           }
         }
