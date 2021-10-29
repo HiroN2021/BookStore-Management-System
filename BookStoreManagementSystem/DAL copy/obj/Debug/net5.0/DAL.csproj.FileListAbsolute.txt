@@ -1,0 +1,60 @@
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.csproj.AssemblyReference.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.AssemblyInfoInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.AssemblyInfo.cs
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/DAL.deps.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/ref/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/DAL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/bin/Debug/net5.0/Persistence.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.csproj.CopyComplete
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/ref/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/DAL/obj/Debug/net5.0/DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\DAL\obj\Debug\net5.0\DAL.pdb

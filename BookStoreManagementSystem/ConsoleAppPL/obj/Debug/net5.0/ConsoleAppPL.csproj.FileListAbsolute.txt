@@ -1,0 +1,259 @@
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ConsoleAppPL.deps.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ConsoleAppPL.runtimeconfig.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ConsoleAppPL.runtimeconfig.dev.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ConsoleAppPL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ref/ConsoleAppPL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/ConsoleAppPL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Google.Protobuf.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Microsoft.Win32.SystemEvents.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/MySql.Data.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Zstandard.Net.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/System.Drawing.Common.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/System.Security.Permissions.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/System.Windows.Extensions.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/BL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/BL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/Persistence.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/bin/Debug/net5.0/DAL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.csproj.AssemblyReference.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.AssemblyInfoInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.AssemblyInfo.cs
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.csproj.CopyComplete
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ref/ConsoleAppPL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/ConsoleAppPL/obj/Debug/net5.0/ConsoleAppPL.genruntimeconfig.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.exe
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.dev.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.genruntimeconfig.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.exe
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.dev.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.genruntimeconfig.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.exe
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.dev.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.genruntimeconfig.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.exe
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.deps.json
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.json
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CopyComplete
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.genruntimeconfig.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.exe
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.deps.json
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.json
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.csproj.CopyComplete
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ref\ConsoleAppPL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\ConsoleAppPL\obj\Debug\net5.0\ConsoleAppPL.genruntimeconfig.cache

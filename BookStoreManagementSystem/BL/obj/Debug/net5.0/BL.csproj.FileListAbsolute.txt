@@ -1,0 +1,119 @@
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/BL.deps.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/BL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/ref/BL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/BL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/DAL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/DAL.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/bin/Debug/net5.0/Persistence.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.csproj.AssemblyReference.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.AssemblyInfoInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.AssemblyInfo.cs
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.csproj.CopyComplete
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/ref/BL.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/BL/obj/Debug/net5.0/BL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\BL\obj\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.deps.json
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\BL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\DAL.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.csproj.CopyComplete
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\ref\BL.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\BL\obj\Debug\net5.0\BL.pdb

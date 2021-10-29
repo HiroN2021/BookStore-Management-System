@@ -1,0 +1,84 @@
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/sinhnx/Desktop/VTCA/PF12/BookBikeSystem/Persistence/obj/Debug/net5.0/Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07. Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\LibraryManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\VTCA-Document\SEM1\07.Project\LibraryManagement\pf12-g04-library-management\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\Secret Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\admin\Desktop\Secret-Project\BookStoreManagementSystem\Persistence\obj\Debug\net5.0\Persistence.pdb
