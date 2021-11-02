@@ -12,12 +12,16 @@ namespace DAL
             List<Author> authors = new List<Author>();
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT a.*\r\nFROM authors a\r\n         LEFT JOIN books b ON a.AuthorID = b.AuthorID\r\nWHERE a.AuthorName LIKE @pattern\r\nGROUP BY a.AuthorID\r\nORDER BY COUNT(b.BookID) DESC;";
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES authors a READ, authors_books ab READ, books b READ;";
+                command.ExecuteNonQuery();
+                command.CommandText = "SELECT a.*\r\nFROM authors a\r\n         LEFT JOIN authors_books ab ON a.AuthorID = ab.AuthorID\r\n         LEFT JOIN books b ON b.BookID = ab.BookID\r\nWHERE a.AuthorName LIKE @pattern\r\nGROUP BY a.AuthorID\r\nORDER BY COUNT(b.BookID) DESC;";
                 command.Parameters.AddWithValue("@pattern", "%" + pattern + "%");
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
@@ -37,6 +41,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return authors;

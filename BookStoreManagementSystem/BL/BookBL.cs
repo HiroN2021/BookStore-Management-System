@@ -8,12 +8,9 @@ namespace BL
     public class BookBL
     {
         private BookDAL bookDAL = new BookDAL();
-        Book GetBookByID(uint bookID, out Exception ex)
+        public Book GetBookByID(uint bookID, out Exception ex)
         {
-            var book = bookDAL.GetBookByID(bookID, out ex);
-            if (ex != null)
-                throw ex;
-            return book;
+            return bookDAL.GetBookByID(bookID, out ex);
         }
         public Book GetBookByISBN(string isbn, out Exception ex)
         {
@@ -22,7 +19,7 @@ namespace BL
         }
         public List<Book> FindBookByTitle(string pattern, out Exception ex)
         {
-            return bookDAL.FindBooksByName(pattern, out ex);
+            return bookDAL.FindBooksByTitle(pattern, out ex);
         }
         public List<Book> FindBooksByCategory(uint categoryID, out Exception ex)
         {

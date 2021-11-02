@@ -45,6 +45,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return libraryCard;
@@ -73,6 +75,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return status;
@@ -97,6 +101,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return count;
@@ -121,6 +127,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return count;

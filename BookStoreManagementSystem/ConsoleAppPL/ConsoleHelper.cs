@@ -122,18 +122,22 @@ namespace ConsoleAppPL
             } while (true);
             return getinput;
         }
-        public static void PrintTable(List<List<string>> rowsContents, List<int> columnsFormat, string title = null, bool hasCenterBorder = true)
+        public static void PrintTable(List<List<string>> rowsContents, List<int> columnsFormat, string title = null, bool hasCenterBorder = true, int? pageWidth = null)
         {
             if (columnsFormat[1] >= 0)
                 throw new FormatException("columnsFormat[1] must be a negative number");
             int rowLenght = columnsFormat.Sum<int>(x => Math.Abs(x)) + 3 * columnsFormat.Count + 1;
+            string padLeftString = "";
+            if (pageWidth.HasValue && rowLenght < pageWidth.Value)
+                padLeftString = new string(' ', (pageWidth.Value - rowLenght) / 2);
             string rowSeparator = $"+{new string('-', rowLenght - 2)}+";
+            string rowSeparatorCenter = $"|{new string('-', rowLenght - 2)}|";
             if (title != null)
             {
-                Console.WriteLine(rowSeparator);
-                Console.WriteLine($"|{title.CenterLine(rowLenght - 2)}|");
+                Console.WriteLine(padLeftString + rowSeparator);
+                Console.WriteLine($"{padLeftString}|{title.CenterLine(rowLenght - 2)}|");
             }
-            Console.WriteLine(rowSeparator);
+            Console.WriteLine(padLeftString + rowSeparator);
             for (int i = 0; i < rowsContents.Count; i++)
             {
                 List<string> row = rowsContents[i];
@@ -144,6 +148,7 @@ namespace ConsoleAppPL
 
                     for (int j = 0; j < chunks; j++)
                     {
+                        Console.Write(padLeftString);
                         if (j == 0)
                         {
                             Console.Write("|");
@@ -172,20 +177,29 @@ namespace ConsoleAppPL
                 }
                 else
                 {
-                    Console.Write("|");
+                    Console.Write("{0}|", padLeftString);
                     for (int k = 0; k < row.Count; k++)
                     {
                         Console.Write(" {0} |", columnsFormat[k] < 0 ? row[k].PadRight(-columnsFormat[k]) : row[k].PadLeft(columnsFormat[k]));
                     }
                     Console.WriteLine();
                 }
-                if (hasCenterBorder && i < rowsContents.Count - 1) Console.WriteLine(rowSeparator);
+                if (hasCenterBorder && i < rowsContents.Count - 1) Console.WriteLine(padLeftString + rowSeparatorCenter);
             }
-            Console.WriteLine(rowSeparator);
+            Console.WriteLine(padLeftString + rowSeparator);
         }
         public static string CenterLine(this string oldText, int lineLength)
         {
             return oldText.PadLeft((lineLength - oldText.Length) / 2 + oldText.Length).PadRight(lineLength);
+        }
+        public static string CenterParagraph(this string oldText, int lineLength)
+        {
+            string[] textChunk = oldText.Split(Environment.NewLine);
+            for (int i = 0; i < textChunk.Length; i++)
+            {
+                textChunk[i] = textChunk[i].CenterLine(lineLength);
+            }
+            return string.Join(Environment.NewLine, textChunk);
         }
     }
 }

@@ -11,8 +11,6 @@ namespace BL
         public bool AddToDataBase(in Invoice invoice, out Exception ex)
         {
             bool status = invoiceDAL.AddToDataBase(in invoice, out ex);
-            // if (ex != null)
-            //     throw ex;
             return status;
         }
     }

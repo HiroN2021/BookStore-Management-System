@@ -12,12 +12,34 @@ namespace DAL
             Book book = null;
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       ISBN13,\r\n       ISBN10,\r\n       a.AuthorID,\r\n       a.AuthorName,\r\n       p.PublisherID,\r\n       p.PublisherName,\r\n       l.LanguageID,\r\n       l.LanguageName,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status\r\nFROM books b\r\n         LEFT JOIN authors a ON a.AuthorID = b.AuthorID\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         LEFT JOIN languages l ON l.LanguageID = b.LanguageID\r\n         WHERE b.BookID = @bookID";
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = @"SELECT b.BookID,
+       Title,
+       Price,
+       Format,
+       ISBN13,
+       ISBN10,
+       PublicationDate,
+       NumberOfPages,
+       Dimensions,
+       Description,
+       Quantity,
+       Status,
+       p.PublisherID,
+       PublisherName
+FROM books b
+         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID
+         WHERE b.BookID = @bookID
+         LIMIT 1";
                 command.Parameters.AddWithValue("@bookID", bookID);
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
@@ -30,12 +52,32 @@ namespace DAL
                 if (book == null)
                     return null;
 
-                command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                command.Parameters.Clear();
+                command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                command.Parameters.AddWithValue("@bookID", book.BookID);
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
                         book.AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                    }
+                }
+                command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                command.Parameters["@bookID"].Value = book.BookID;
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        book.AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                    }
+                }
+                command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                command.Parameters["@bookID"].Value = book.BookID;
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        book.AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                     }
                 }
             }
@@ -46,6 +88,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return book;
@@ -55,12 +99,17 @@ namespace DAL
             Book book = null;
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       ISBN13,\r\n       ISBN10,\r\n       a.AuthorID,\r\n       a.AuthorName,\r\n       p.PublisherID,\r\n       p.PublisherName,\r\n       l.LanguageID,\r\n       l.LanguageName,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status\r\nFROM books b\r\n         LEFT JOIN authors a ON a.AuthorID = b.AuthorID\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         LEFT JOIN languages l ON l.LanguageID = b.LanguageID\r\n         WHERE b.ISBN10 = @isbn OR b.ISBN13 = @isbn\r\n         LIMIT 1";
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       Format,\r\n       ISBN13,\r\n       ISBN10,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status,\r\n       p.PublisherID,\r\n       PublisherName\r\nFROM books b\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         WHERE b.ISBN10 = @isbn OR b.ISBN13 = @isbn\r\n         LIMIT 1";
                 command.Parameters.AddWithValue("@isbn", isbn);
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
@@ -73,13 +122,31 @@ namespace DAL
                 if (book == null)
                     return null;
 
-                command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
                 command.Parameters.AddWithValue("@bookID", book.BookID);
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
                         book.AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                    }
+                }
+                command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                command.Parameters["@bookID"].Value = book.BookID;
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        book.AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                    }
+                }
+                command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                command.Parameters["@bookID"].Value = book.BookID;
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        book.AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                     }
                 }
             }
@@ -90,22 +157,29 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return book;
         }
-        public List<Book> FindBooksByName(string pattern, out Exception ex)
+        public List<Book> FindBooksByTitle(string pattern, out Exception ex)
         {
             List<Book> books = new List<Book>();
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       ISBN13,\r\n       ISBN10,\r\n       a.AuthorID,\r\n       a.AuthorName,\r\n       p.PublisherID,\r\n       p.PublisherName,\r\n       l.LanguageID,\r\n       l.LanguageName,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status\r\nFROM books b\r\n         LEFT JOIN authors a ON a.AuthorID = b.AuthorID\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         LEFT JOIN languages l ON l.LanguageID = b.LanguageID"
-+ "\nWHERE b.Title LIKE @pattern;";
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       Format,\r\n       ISBN13,\r\n       ISBN10,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status,\r\n       p.PublisherID,\r\n       PublisherName\r\nFROM books b\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n"
+                                    + "WHERE b.Title LIKE @pattern;";
                 command.Parameters.AddWithValue("@pattern", "%" + pattern + "%");
                 using (MySqlDataReader reader = command.ExecuteReader())
                 {
@@ -120,13 +194,31 @@ namespace DAL
                 command.Parameters.Add("@bookID", MySqlDbType.UInt32);
                 for (int i = 0; i < books.Count; i++)
                 {
-                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
                     command.Parameters["@bookID"].Value = books[i].BookID;
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
                             books[i].AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = books[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            books[i].AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = books[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            books[i].AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                         }
                     }
                 }
@@ -138,6 +230,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return books;
@@ -147,12 +241,17 @@ namespace DAL
             ex = null;
             List<Book> filteredBooks = new List<Book>();
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       ISBN13,\r\n       ISBN10,\r\n       a.AuthorID,\r\n       a.AuthorName,\r\n       p.PublisherID,\r\n       p.PublisherName,\r\n       l.LanguageID,\r\n       l.LanguageName,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status\r\nFROM categories c\r\n         JOIN categories_books cb ON c.CategoryID = cb.CategoryID\r\n         JOIN books b ON b.BookID = cb.BookID\r\n         JOIN authors a ON a.AuthorID = b.AuthorID\r\n         JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         JOIN languages l ON l.LanguageID = b.LanguageID\r\n"
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       Format,\r\n       ISBN13,\r\n       ISBN10,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status,\r\n       p.PublisherID,\r\n       PublisherName\r\nFROM books b\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\n"
                     + "WHERE c.CategoryID = @categoryID";
                 command.Parameters.AddWithValue("@categoryID", categoriesID);
                 using (MySqlDataReader reader = command.ExecuteReader())
@@ -169,13 +268,31 @@ namespace DAL
                 command.Parameters.Add("@bookID", MySqlDbType.UInt32);
                 for (int i = 0; i < filteredBooks.Count; i++)
                 {
-                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
                     command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
                             filteredBooks[i].AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                         }
                     }
                 }
@@ -187,6 +304,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return filteredBooks;
@@ -196,12 +315,17 @@ namespace DAL
             ex = null;
             List<Book> filteredBooks = new List<Book>();
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       ISBN13,\r\n       ISBN10,\r\n       a.AuthorID,\r\n       a.AuthorName,\r\n       p.PublisherID,\r\n       p.PublisherName,\r\n       l.LanguageID,\r\n       l.LanguageName,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status\r\nFROM books b\r\n         JOIN authors a ON a.AuthorID = b.AuthorID\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         LEFT JOIN languages l ON l.LanguageID = b.LanguageID\r\n"
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       Format,\r\n       ISBN13,\r\n       ISBN10,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status,\r\n       p.PublisherID,\r\n       PublisherName\r\nFROM books b\r\n         LEFT JOIN publishers p ON p.PublisherID = b.PublisherID\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         JOIN authors a ON a.AuthorID = ab.AuthorID\r\n"
                     + "WHERE a.AuthorID = @authorID";
                 command.Parameters.AddWithValue("@authorID", authorID);
                 using (MySqlDataReader reader = command.ExecuteReader())
@@ -218,13 +342,31 @@ namespace DAL
                 command.Parameters.Add("@bookID", MySqlDbType.UInt32);
                 for (int i = 0; i < filteredBooks.Count; i++)
                 {
-                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
                     command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
                             filteredBooks[i].AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                         }
                     }
                 }
@@ -236,6 +378,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return filteredBooks;
@@ -245,33 +389,17 @@ namespace DAL
             ex = null;
             List<Book> filteredBooks = new List<Book>();
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
-                command.CommandText = @"SELECT b.BookID,
-       Title,
-       Price,
-       ISBN13,
-       ISBN10,
-       a.AuthorID,
-       a.AuthorName,
-       p.PublisherID,
-       p.PublisherName,
-       l.LanguageID,
-       l.LanguageName,
-       PublicationDate,
-       NumberOfPages,
-       Dimensions,
-       Description,
-       Quantity,
-       Status
-FROM books b
-         JOIN publishers p ON p.PublisherID = b.PublisherID
-         LEFT JOIN authors a ON a.AuthorID = b.AuthorID
-         LEFT JOIN languages l ON l.LanguageID = b.LanguageID
-"
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES books b READ, publishers p READ, authors a READ, authors_books ab READ, languages l READ, languages_books lb READ, categories c READ, categories_books cb READ;";
+                command.ExecuteNonQuery();
+                
+                command.CommandText = "SELECT b.BookID,\r\n       Title,\r\n       Price,\r\n       Format,\r\n       ISBN13,\r\n       ISBN10,\r\n       PublicationDate,\r\n       NumberOfPages,\r\n       Dimensions,\r\n       Description,\r\n       Quantity,\r\n       Status,\r\n       p.PublisherID,\r\n       PublisherName\r\nFROM books b\r\n         JOIN publishers p ON p.PublisherID = b.PublisherID\r\n"
                     + "WHERE p.PublisherID = @publisherID";
                 command.Parameters.AddWithValue("@publisherID", publisherID);
                 using (MySqlDataReader reader = command.ExecuteReader())
@@ -288,13 +416,31 @@ FROM books b
                 command.Parameters.Add("@bookID", MySqlDbType.UInt32);
                 for (int i = 0; i < filteredBooks.Count; i++)
                 {
-                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
+                    command.CommandText = "SELECT  c.CategoryID, c.CategoryName\r\nFROM books b\r\n         JOIN categories_books cb ON b.BookID = cb.BookID\r\n         LEFT JOIN categories c ON c.CategoryID = cb.CategoryID\r\nWHERE b.BookID = @bookID";
                     command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
                             filteredBooks[i].AddCategories(reader.GetUInt32("CategoryID"), reader["CategoryName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  a.AuthorID, a.AuthorName\r\nFROM books b\r\n         JOIN authors_books ab ON b.BookID = ab.BookID\r\n         LEFT JOIN authors a ON a.AuthorID = ab.AuthorID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddAuthors(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
+                        }
+                    }
+                    command.CommandText = "SELECT  l.LanguageID, l.LanguageName\r\nFROM books b\r\n         JOIN languages_books lb ON b.BookID = lb.BookID\r\n         LEFT JOIN languages l ON l.LanguageID = lb.LanguageID\r\nWHERE b.BookID = @bookID";
+                    command.Parameters["@bookID"].Value = filteredBooks[i].BookID;
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            filteredBooks[i].AddLanguages(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
                         }
                     }
                 }
@@ -306,6 +452,8 @@ FROM books b
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return filteredBooks;
@@ -317,16 +465,13 @@ FROM books b
                 book.Title = reader["Title"].ToString();
             if (!reader.IsDBNull(reader.GetOrdinal("Price")))
                 book.Price = int.Parse(reader["Price"].ToString());
+            book.Format = Enum.Parse<BookFormat>(reader["Format"].ToString());
             if (!reader.IsDBNull(reader.GetOrdinal("ISBN13")))
                 book.ISBN13 = reader["ISBN13"].ToString();
             if (!reader.IsDBNull(reader.GetOrdinal("ISBN10")))
                 book.ISBN10 = reader["ISBN10"].ToString();
-            if (!reader.IsDBNull(reader.GetOrdinal("AuthorID")) && !reader.IsDBNull(reader.GetOrdinal("AuthorName")))
-                book.SetAuthor(reader.GetUInt32("AuthorID"), reader["AuthorName"].ToString());
             if (!reader.IsDBNull(reader.GetOrdinal("PublisherID")) && !reader.IsDBNull(reader.GetOrdinal("PublisherName")))
-                book.SetPublisher(reader.GetUInt32("PublisherID"), reader["PublisherName"].ToString());
-            if (!reader.IsDBNull(reader.GetOrdinal("LanguageID")) && !reader.IsDBNull(reader.GetOrdinal("LanguageName")))
-                book.SetLanguage(reader.GetUInt32("LanguageID"), reader["LanguageName"].ToString());
+                book.Publisher = new Publisher(reader.GetUInt32("PublisherID"), reader["PublisherName"].ToString());
             if (!reader.IsDBNull(reader.GetOrdinal("PublicationDate")))
                 book.PublicationDate = reader.GetDateTime("PublicationDate");
             if (!reader.IsDBNull(reader.GetOrdinal("NumberOfPages")))
@@ -336,7 +481,7 @@ FROM books b
             if (!reader.IsDBNull(reader.GetOrdinal("Description")))
                 book.Description = reader["Description"].ToString();
             if (!reader.IsDBNull(reader.GetOrdinal("Quantity")))
-                book.NumberOfPages = reader.GetUInt32("Quantity");
+                book.Quantity = reader.GetInt32("Quantity");
             book.Status = Enum.Parse<BookStatus>(reader["Status"].ToString());
         }
     }

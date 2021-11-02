@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\BL.csproj": {
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\DAL.csproj"
+              "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
+              "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj": {
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj",
         "projectName": "ConsoleAppPL",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\ConsoleAppPL\\ConsoleAppPL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\ConsoleAppPL\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\ConsoleAppPL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,11 +91,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\BL\\BL.csproj"
+              "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\BL\\BL.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
+              "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\DAL.csproj": {
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,8 +153,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
+              "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Secret-Project\\BookStoreManagementSystem\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Project-Sem1\\BookStore-Management-System\\BookStoreManagementSystem\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

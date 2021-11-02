@@ -12,11 +12,16 @@ namespace DAL
             List<Publisher> publishers = new List<Publisher>();
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
+            MySqlCommand command = null;
             try
             {
                 connection.Open();
-                MySqlCommand command = connection.CreateCommand();
+                command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
+                // LOCK TABLES
+                command.CommandText = @"LOCK TABLES publishers p READ, books b READ;";
+                command.ExecuteNonQuery();
+                
                 command.CommandText = "SELECT p.*\r\nFROM publishers p\r\n         LEFT JOIN books b ON p.PublisherID = p.PublisherID\r\nWHERE p.PublisherName LIKE @pattern\r\nGROUP BY p.PublisherID\r\nORDER BY COUNT(b.BookID) DESC;";
                 command.Parameters.AddWithValue("@pattern", "%" + pattern + "%");
                 using (MySqlDataReader reader = command.ExecuteReader())
@@ -37,6 +42,8 @@ namespace DAL
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return publishers;

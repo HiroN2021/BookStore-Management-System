@@ -4,11 +4,11 @@ using MySql.Data.MySqlClient;
 
 namespace DAL
 {
-    public class EmployeeDAL
+    public class CustomerDAL
     {
-        public Employee GetEmployee(string userName, string password, out Exception ex)
+        public Customer GetCustomerByPhone(string phone, out Exception ex)
         {
-            Employee employee = null;
+            Customer customer = null;
             ex = null;
             MySqlConnection connection = DbHelper.GetConnection();
             MySqlCommand command = null;
@@ -18,21 +18,21 @@ namespace DAL
                 command = connection.CreateCommand();
                 command.CommandType = System.Data.CommandType.Text;
                 // LOCK TABLES
-                command.CommandText = @"LOCK TABLES employees READ";
+                command.CommandText = @"LOCK TABLES customers READ";
                 command.ExecuteNonQuery();
                 
-                command.CommandText = "SELECT * FROM employees WHERE UserName = @userName AND Password = @password LIMIT 1";
+                command.CommandText = "SELECT * FROM customers WHERE Phone = @phone LIMIT 1";
 
-                command.Parameters.AddWithValue("@userName", userName);
-                command.Parameters.AddWithValue("@password", Md5Algorithms.CreateMD5(password));
+                command.Parameters.AddWithValue("@phone", phone);
 
                 MySqlDataReader reader = command.ExecuteReader();
                 if (reader.Read())
                 {
-                    employee = new Employee();
-                    employee.EmployeeID = uint.Parse(reader["EmployeeID"].ToString());
-                    employee.FirstName = reader["FirstName"].ToString();
-                    employee.LastName = reader["LastName"].ToString();
+                    customer = new Customer();
+                    customer.CustomerID = uint.Parse(reader["CustomerID"].ToString());
+                    customer.FirstName = reader["FirstName"].ToString();
+                    customer.LastName = reader["LastName"].ToString();
+                    customer.Phone = reader["Phone"].ToString();
                 }
                 reader.Dispose();
             }
@@ -47,7 +47,7 @@ namespace DAL
                 command.ExecuteNonQuery();
                 connection?.Dispose();
             }
-            return employee;
+            return customer;
         }
     }
 }

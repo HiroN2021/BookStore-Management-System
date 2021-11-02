@@ -20,27 +20,45 @@ namespace DAL
                 myTrans = connection.BeginTransaction();
                 command = connection.CreateCommand();
                 command.Transaction = myTrans;
-                // Insert Customer
-                command.CommandText = @"INSERT INTO customers (FirstName, LastName, ContactTitle, Gender, BirthDate, Address, City, Phone, Fax, Email, Note)
-VALUES (@firstName, @lastName, @contactTitle, @gender, @birthDate, @address, @city, @phone, @fax, @email, @note);";
-                command.Parameters.AddWithValue("@firstName", customer.FirstName); // ?? "NULL"
-                command.Parameters.AddWithValue("@lastName", customer.LastName); // ?? "NULL"
-                command.Parameters.AddWithValue("@contactTitle", customer.ContactTitle); // ?? "NULL"
-                command.Parameters.AddWithValue("@gender", (int)customer.Gender);
-                command.Parameters.AddWithValue("@birthDate", customer.BirthDate != null ? customer.BirthDate.Value.ToString("yyyy-MM-dd") : null);
-                command.Parameters.AddWithValue("@address", customer.Address); // ?? "NULL"
-                command.Parameters.AddWithValue("@city", customer.City); // ?? "NULL"
-                command.Parameters.AddWithValue("@phone", customer.Phone); // ?? "NULL"
-                command.Parameters.AddWithValue("@fax", customer.Fax); // ?? "NULL"
-                command.Parameters.AddWithValue("@email", customer.Email); // ?? "NULL"
-                command.Parameters.AddWithValue("@note", customer.Note); // ?? "NULL"
+                // LOCK Table
+                command.CommandText = @"LOCK TABLES customers WRITE , invoices WRITE , invoices_details WRITE, books WRITE;";
                 command.ExecuteNonQuery();
-                command.Parameters.Clear();
-                // Get Customer ID
-                customer.CustomerID = (uint)command.LastInsertedId;
+                // Insert Customer
+                if (customer.CustomerID != 0)
+                {
+                    command.CommandText = "UPDATE customers\r\nSET FirstName = @firstName,\r\n    LastName  = @lastName\r\nWHERE CustomerID = @customerID;";
+                    command.Parameters.AddWithValue("@customerID", customer.CustomerID);
+                    command.Parameters.AddWithValue("@firstName", customer.FirstName);
+                    command.Parameters.AddWithValue("@lastName", customer.LastName);
+                    command.ExecuteNonQuery();
+                    command.Parameters.Clear();
+                }
+                else
+                {
+                    command.CommandText = "INSERT INTO customers(FirstName, LastName, Phone)\r\nVALUES (@firstName, @lastName, @phone);";
+                    // command.CommandText = @"INSERT INTO customers (FirstName, LastName, ContactTitle, Gender, BirthDate, Address, City, Phone, Fax, Email, Note)
+                    // VALUES (@firstName, @lastName, @contactTitle, @gender, @birthDate, @address, @city, @phone, @fax, @email, @note);";
+                    command.Parameters.AddWithValue("@firstName", customer.FirstName);
+                    command.Parameters.AddWithValue("@lastName", customer.LastName);
+                    // command.Parameters.AddWithValue("@contactTitle", customer.ContactTitle);
+                    // command.Parameters.AddWithValue("@gender", (int)customer.Gender);
+                    // command.Parameters.AddWithValue("@birthDate", customer.BirthDate != null ? customer.BirthDate.Value.ToString("yyyy-MM-dd") : null);
+                    // command.Parameters.AddWithValue("@address", customer.Address);
+                    // command.Parameters.AddWithValue("@city", customer.City);
+                    command.Parameters.AddWithValue("@phone", customer.Phone);
+                    // command.Parameters.AddWithValue("@fax", customer.Fax);
+                    // command.Parameters.AddWithValue("@email", customer.Email);
+                    // command.Parameters.AddWithValue("@note", customer.Note);
+                    command.ExecuteNonQuery();
+                    command.Parameters.Clear();
+                    // Get Customer ID
+                    customer.CustomerID = (uint)command.LastInsertedId;
+                }
                 // Insert Invoice
                 command.CommandText = @"INSERT INTO invoices (CustomerID, EmployeeID, CreatedTime, Description)
-VALUES (@customerID, @employeeID, @createdTime, @invoiceDescription);";
+                VALUES (@customerID, @employeeID, @createdTime, @invoiceDescription);";
+                // command.CommandText = @"INSERT INTO invoices (EmployeeID, CreatedTime, Description)
+                // VALUES (@employeeID, @createdTime, @invoiceDescription);";
                 command.Parameters.AddWithValue("@customerID", customer.CustomerID);
                 command.Parameters.AddWithValue("@employeeID", invoice.Employee_Info.EmployeeID);
                 command.Parameters.AddWithValue("@createdTime", invoice.CreatedTime);
@@ -68,15 +86,17 @@ VALUES (@invoiceID, @bookID, @itemQuantity, @amount);";
                 command.Parameters.Clear();
                 // Update Books
                 command.CommandText = @"UPDATE books
-SET Quantity = Quantity - @itemQuantity
+SET Quantity = Quantity - @itemQuantity, Status = @bookStatus
 WHERE BookID = @bookID;";
                 command.Parameters.Add("@itemQuantity", MySqlDbType.UInt32);
                 command.Parameters.Add("@bookID", MySqlDbType.UInt32);
+                command.Parameters.AddWithValue("@bookStatus", 1);
                 for (int i = 0; i < invoice.InvoiceDetails.Count; i++)
                 {
                     var orderDetail = invoice.InvoiceDetails[i];
                     command.Parameters["@bookID"].Value = orderDetail.Book_Info.BookID;
                     command.Parameters["@itemQuantity"].Value = orderDetail.ItemQuantity;
+                    command.Parameters["@bookStatus"].Value = ((int)orderDetail.Book_Info.Status);
                     command.ExecuteNonQuery();
                 }
                 myTrans.Commit();
@@ -103,6 +123,8 @@ WHERE BookID = @bookID;";
             }
             finally
             {
+                command.CommandText = @"UNLOCK TABLES";
+                command.ExecuteNonQuery();
                 connection?.Dispose();
             }
             return status;
