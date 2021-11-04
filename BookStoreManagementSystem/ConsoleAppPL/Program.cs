@@ -823,7 +823,7 @@ namespace ConsoleAppPL
             PrintHeader(menuTitle);
             Console.WriteLine();
             string pattern = GetString("Search for Book's Title: ");
-            List<Book> foundBooks = bookBL.FindBookByTitle(pattern, out Exception ex);
+            List<Book> foundBooks = bookBL.FindBooksByTitle(pattern, out Exception ex);
             Console.WriteLine();
             if (foundBooks.Count == 0)
             {
@@ -834,9 +834,9 @@ namespace ConsoleAppPL
             else
             {
                 int maxNumberOfBooksPerPage = 10;
+                int pageNumber = 1;
                 do
                 {
-                    int pageNumber = 1;
                     char button;
                     do
                     {

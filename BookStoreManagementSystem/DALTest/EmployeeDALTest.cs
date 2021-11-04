@@ -9,16 +9,19 @@ namespace DALTest
     {
         private EmployeeDAL employeeDAL = new EmployeeDAL();
         [Theory]
-        // [InlineData("hieunm114010120014", "PF12VTCAcademy")]
-        [InlineData("cashier1", "test")]
-        // [InlineData("TestUser", "PF12VTCAcademy", 0)]
-        // [InlineData("hieunm114010120014", "TestPassword", 0)]
-        // [InlineData("TestUser", "TestPassword", 0)]
-        public void GetEmployee(string userName, string password)
+        [InlineData("cashier1", "test", true)]
+        [InlineData("cashier2", "pf12group04", true)]
+        [InlineData("cashier1", "lolasjdlkj", false)]
+        [InlineData("cashier2", "pf12askjdlsjdl", false)]
+        public void GetEmployee(string userName, string password, bool employeeExpectNotNull)
         {
-            Employee result = employeeDAL.GetEmployee(userName, password, out Exception ex);
-            // Assert.True(result != null);
-            Assert.False(ex != null || result == null);
+            Employee employee = employeeDAL.GetEmployee(userName, password, out Exception ex);
+            bool expected = false;
+            if (employeeExpectNotNull && employee != null)
+                expected = true;
+            else if ((!employeeExpectNotNull) && employee == null)
+                expected = true;
+            Assert.True(ex == null && expected);
         }
     }
 }

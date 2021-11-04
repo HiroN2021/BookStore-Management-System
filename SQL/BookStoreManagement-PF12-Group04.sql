@@ -141,6 +141,9 @@ CREATE TABLE invoices_details
 -- Password: test
 INSERT INTO employees(FirstName, LastName, JobTitle, Gender, BirthDate, HireDate, Address, City, Phone, Fax, Email, Note, UserName, Password)
 VALUES ('John', 'Doe', 'Cashier', 0, NULL, CURDATE(), NULL, 'ha noi', NULL, NULL, NULL, NULL, 'cashier1', '098f6bcd4621d373cade4e832627b4f6');
+-- Password: pf12group04
+INSERT INTO employees(FirstName, LastName, JobTitle, Gender, BirthDate, HireDate, Address, City, Phone, Fax, Email, Note, UserName, Password)
+VALUES ('Peter', 'Parker', 'Cashier', 0, NULL, CURDATE(), NULL, 'ha noi', NULL, NULL, NULL, NULL, 'cashier2', '25f84ffe75f13fa9c9b0cd51d2343dfe');
 
 /*  CREATE GRANT USER */
 CREATE USER IF NOT EXISTS 'vtca'@'localhost' IDENTIFIED BY 'vtcacademy';

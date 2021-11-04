@@ -17,7 +17,7 @@ namespace BL
             var book = bookDAL.GetBookByISBN(isbn, out ex);
             return book;
         }
-        public List<Book> FindBookByTitle(string pattern, out Exception ex)
+        public List<Book> FindBooksByTitle(string pattern, out Exception ex)
         {
             return bookDAL.FindBooksByTitle(pattern, out ex);
         }

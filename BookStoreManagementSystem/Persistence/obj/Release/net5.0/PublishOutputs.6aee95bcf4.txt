@@ -1,0 +1,3 @@
+C:\Users\admin\Desktop\Project-Sem1\BookStore-Management-System\Application\Persistence.dll
+C:\Users\admin\Desktop\Project-Sem1\BookStore-Management-System\Application\Persistence.deps.json
+C:\Users\admin\Desktop\Project-Sem1\BookStore-Management-System\Application\Persistence.pdb

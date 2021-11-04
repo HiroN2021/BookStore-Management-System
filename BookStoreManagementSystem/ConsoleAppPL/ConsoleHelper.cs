@@ -131,7 +131,7 @@ namespace ConsoleAppPL
             if (pageWidth.HasValue && rowLenght < pageWidth.Value)
                 padLeftString = new string(' ', (pageWidth.Value - rowLenght) / 2);
             string rowSeparator = $"+{new string('-', rowLenght - 2)}+";
-            string rowSeparatorCenter = $"|{new string('-', rowLenght - 2)}|";
+            string rowSeparatorCenter = $"+{new string('-', rowLenght - 2)}+";
             if (title != null)
             {
                 Console.WriteLine(padLeftString + rowSeparator);
