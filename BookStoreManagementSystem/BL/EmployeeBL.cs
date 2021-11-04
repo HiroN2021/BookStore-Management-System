@@ -6,11 +6,11 @@ namespace BL
 {
     public class EmployeeBL
     {
-        private EmployeeDAL librarianDAL = new EmployeeDAL();
+        private EmployeeDAL employeeDAL = new EmployeeDAL();
 
         public Employee GetEmployee(string userName, string password, out Exception ex)
         {
-            return librarianDAL.GetEmployee(userName, password, out ex);
+            return employeeDAL.GetEmployee(userName, password, out ex);
         }
     }
 }
